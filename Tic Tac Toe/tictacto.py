@@ -128,9 +128,9 @@ def checkWin(space):
         if space[3] in space[4] and space[3] in space[5]:
             print("in here")
             return True
-    else:
-        print("working")
-        return False
+ 
+    print("working")
+    return False
         
 def clear():
     import os
